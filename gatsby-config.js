@@ -5,6 +5,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MHXXR9Z",
+        includeInDevelopment: true
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Gatsby + Node.js (TypeScript) API',
