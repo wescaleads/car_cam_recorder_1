@@ -4,8 +4,9 @@ import '../styles/index.css';
 
 function Index() {
   return (
-    <main>
-    </main>
+    <div>
+      <div id="ovrl-div-ovrl"><div id="lds-dual-ring"></div></div>
+    </div>
   );
 }
 
